@@ -1,0 +1,130 @@
+/* Global Body Styling */
+body {
+  text-align: center;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Container */
+.navbar {
+  background-color: #bebef0;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Unordered List */
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* or space-between / flex-end */
+  gap: 2rem;
+}
+
+/* List Items */
+.nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  position: relative;
+}
+
+/* Hover Effects */
+.nav-list li a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #6a482599;
+  transition: width 0.3s ease;
+}
+
+.nav-list li a:hover::after {
+  width: 100%;
+}
+
+.nav-list li a:hover {
+  color: #00bcd4;
+}
+
+.Card {
+
+display: inline-block;
+width: 250px;
+margin: 20px;
+
+
+}
+/* Image Styling */
+.img {
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto 20px;
+  box-shadow: 5px 5px 5px rgb(20, 19, 19);
+  transition: transform 0.3s ease;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+/* Span inside h1 Styling */
+.span {
+  color: #8e44ad;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.span:hover{
+  color: rgb(110, 139, 81);
+}
+/* Paragraph Styling */
+.paragraph {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin: 15px 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+/* HR Styling */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #8e44ad;
+  margin: 20px auto;
+  width: 60%;
+  opacity: 0.6;
+}
+
+/* OL + LI Combined Styling */
+ol, li {
+  color: #02101d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+ol {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: fit-content;
+  margin: 30px auto;
+  
+}
+
+li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
