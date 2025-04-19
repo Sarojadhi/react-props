@@ -35,6 +35,7 @@ import { hydrateRoot } from 'react-dom/client'
 const Btn = () => {
   const event  = (e)=>{
 
+    console.log(e);
    e.target.textContent = "subscribed 😊 "
   }
   return (
@@ -43,4 +44,5 @@ const Btn = () => {
 }
 
 export default Btn;
+
 
