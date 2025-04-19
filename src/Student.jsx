@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Student = (props) => {
-    console.log(props);
+    // console.log(props);
     return (
         <>
             <div className="container">

@@ -5,7 +5,7 @@ import Card from "./Card.jsx"
 import './index.css';
 import Student from './Student.jsx';
 import List from './List.jsx';
-
+import Btn from './Btn'
 function App() {
 
   return (
@@ -28,6 +28,11 @@ function App() {
       <hr />
       <Student />
     <List />
+    <hr />
+    <hr />
+    <Btn />
+    <hr />
+    <hr />
       <Footer />
     </>
   )
