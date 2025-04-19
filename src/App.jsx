@@ -4,6 +4,7 @@ import Food from "./Food.jsx"
 import Card from "./Card.jsx"
 import './index.css';
 import Student from './Student.jsx';
+import List from './List.jsx';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
       <hr />
       <hr />
       <Student />
-
+    <List />
       <Footer />
     </>
   )
